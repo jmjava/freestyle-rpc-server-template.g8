@@ -28,3 +28,62 @@ g8
 ;reload; set _root_.org.jetbrains.sbt.StructureKeys.sbtStructureOptions in Global := "download resolveClassifiers" ;*/*:dumpStructureTo /tmp/sbt-structure.xml; session clear-all
 clean
 g8
+compile
+g8
+clean
+g8
+clean
+g8
+clean
+compile
+g8
+clean
+g8
+clean
+g8
+clean
+g8
+clean
+g8
+clean
+g8
+clean
+g8
+g8 file://unfiltered.g8/ --name=uftest --force
+g8 file://
+g8 help
+get file
+projects
+help
+completions g8
+gg::
+g8::
+g8Template
+g8TemplateFiles
+g8TargetDirectory
+g8Test
+g8
+clean
+g8
+cd ..
+;reload; set _root_.org.jetbrains.sbt.StructureKeys.sbtStructureOptions in Global := "download resolveClassifiers" ;*/*:dumpStructureTo /tmp/sbt-structure.xml; session clear-all
+clean
+g8
+clean
+g8
+CLEAN
+clean
+g8
+clean
+g8
+clean
+g8
+clean
+gr8
+g8
+clean
+g8
+clean
+g8
+clean
+g8
