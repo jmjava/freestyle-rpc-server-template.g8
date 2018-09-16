@@ -34,7 +34,7 @@ sbt new file:///the/path/to/freestyle-rpc-server-template.g8
 
 ```
 
-###NOTE : this project depdends on other projects in my repo to be published locally
+###NOTE : this project depends on other projects in my repo to be published locally
 
 
 Template license
