@@ -9,36 +9,6 @@ This is a Giter8 template for Freestyle RPC Server projects.
 sbt new jmjava/freestyle-rpc-server-template.g8
 ```
 
-2. Fill the required information (you can see an example below):
-
-```bash
-
-...
-
-name [Project Name]: freestyle-rpc
-projectDescription [Project Description]: RPC with Freestyle
-project [project-name]: freestyle-rpc
-package [freestyle]:
-Skipping existing file: ./freestyle-rpc/.gitignore
-Skipping existing file: ./freestyle-rpc/.scalafmt.conf
-
-Template applied in ./freestyle-rpc
-```
-
-The new project will be created in a new folder in the root directoy of this project with the name introduced before. It will contain the basic structure and basic sbt configuration based on the `sbt-freestyle` and `sbt-org-policies` plugins.
-
-3. Create the organization files, to do so, from the project folder, you could just run:
-
-```scala
-sbt orgCreateFiles
-```
-
-4. Verify that everything is correctly configured:
-
-```scala
-sbt orgScriptCI
-```
-
 ## Debugging this template
 
 In the case you need to change this plugin, the easiest way to test it locally is:
@@ -46,6 +16,25 @@ In the case you need to change this plugin, the easiest way to test it locally i
 ```
 sbt new file:///the/path/to/freestyle-rpc-server-template.g8
 ```
+
+
+##### For example from the checkout directory - use the template to generate a new project
+
+```
+/git/freestyle-rpc-server-template.g8$ sbt new file://`pwd`﻿
+
+--follow prompts
+
+```
+
+##### Now compile and package the project
+
+```
+/git/freestyle-rpc-server-template.g8/freestyle/ sbt compile
+
+```
+
+###NOTE : this project depdends on other projects in my repo to be published locally
 
 
 Template license
